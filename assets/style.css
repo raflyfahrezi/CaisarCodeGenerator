@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -27,6 +29,9 @@ body {
 .box__label {
     margin-bottom: 20px;
     text-align: center;
+    font-family: 'Quicksand' ;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .box__input { 
@@ -38,14 +43,27 @@ input[type=text] {
     border-radius: 3px;
     border: none;
     padding: 5px;
+    outline: none;
 }
 
 .box__button {
     margin-bottom: 20px;
     width: 100%;
+    height: auto;
+    text-align: center;
 }
 
 .buttonGenerate {
     /* width: 100px; */
-    margin: 0 auto;
+    padding: 5px 10px;
+    /* margin: 0 auto; */
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    font-family: 'Quicksand';
+    background-color: white;
+}
+
+.box__result {
+    font-family: 'Quicksand';
 }
